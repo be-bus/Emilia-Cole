@@ -1,0 +1,45 @@
+body{
+    margin-top:0;
+}
+.body-music h3{
+    font-size:20px;
+}
+#top{
+    padding: 40px 0;
+    margin:0%;
+    background-image: url(/img/emilia-music-top.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    
+} 
+.redireccion h1{
+    font-size:3em;
+}
+.redireccion p{
+    font-weight: 600;
+}
+.redireccion ul *{
+    color:rgb(157,143,140);
+    font-weight: 600;
+}
+picture{
+    display: block;
+    width: 640px;
+    height: 360px;
+    background-image:url(/img/emilia-play-list.png);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.album ol li{
+    list-style: decimal-leading-zero;
+    font-weight: 600;
+    font-size: 18px;
+}
+.goto a{
+    color:rgb(157,143,140);
+    font-weight: 600;
+    font-size: 14px;
+}
+.directores{
+    font-weight: 600;
+}

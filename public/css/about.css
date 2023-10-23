@@ -1,0 +1,21 @@
+.body-about{
+    height: 700px;
+    background-image: url(/img/emilia-about.jpg);
+    background-repeat:no-repeat;
+    background-size:75% 100%;
+    background-position:right;
+}
+.body-about h1{
+    font-size: 80px;
+    margin-bottom:40px;
+}
+.presentacion{
+    font-size: 27px;
+}
+.body-about p{
+    color:var(--color-verde);
+    margin-left: 40px;
+}
+.p{
+
+}

@@ -7,20 +7,25 @@
     <link rel="icon" href="./../public/img/iconos/favicon.ico">
     <script src="https://kit.fontawesome.com/394c6d3176.js" crossorigin="anonymous"></script>
     <title>MUSIC</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <header id="top">
+<body class="body-music">
+    <header id="top" class="nav-horizontal">
+        <!--
         <div>
             <img src="img/emilia-music-top.jpg" alt="image header"width="100%">
         </div>
-        <ul>
-            <li><a href="/">HOME</a></i></li><!--ul>li*3>a-->
-            <li><a href="/about">ABOUT</a></li>
-            <li><a href="/music">MUSIC</a></li>
-            <li><a href="/contact">CONTAC</a></li>
-        </ul>
-        <ul>
+        -->
+        <nav>
+            <ul class="nav-list">
+                <li><a href="/">| HOME |</a></i></li><!--ul>li*3>a-->
+                <li><a href="/about">ABOUT |</a></li>
+                <li><a href="/music">MUSIC |</a></li>
+                <li><a href="/contact">CONTAC |</a></li>
+            </ul>
+        </nav>
+        <ul class="list-icon">
             <li><a href=""><i class="fa-brands fa-x-twitter fa-sm"></i></a></li>
             <li><a href=""><i class="fa-brands fa-facebook fa-sm"></i></a></li>
             <li><a href=""><i class="fa-brands fa-spotify fa-sm"></i></a></li>
@@ -30,7 +35,7 @@
         </ul>
     </header>
     <section >
-        <article>
+        <article class="redireccion">
             <h1> MUSIC //</h1>
             <p>Direct links</p>
             <ul>
@@ -39,16 +44,20 @@
                 <li><a href="#video2">Video: Street Ligth</a></li>
             </ul>
         </article>
-        <article>
+        <article class="album">
             <h3>ALBUM <br>TWIST IN MY REALITY</h3>
-            <img src="img/emilia-play-list.png" alt="emilia-cole-music">
+            <picture>
+                <!--
+                <img src="img/emilia-play-list.png" alt="emilia-cole-music">
+                -->
+            </picture>
             <ol>
                 <li>Organic Love | 02:40</li>
                 <li>Twist in My Reality | 02:10</li>
                 <li>Street Ligth | 03:28</li>
                 <li>Love Don´t Live Here Anymore (Cover) | 03:49<Label></Label></li>
             </ol>
-            <p><a href="#top">Go Top</a></p>
+            <p class="goto"><a href="#top">Go Top</a></p>
         </article>
     </section>
     <section id="video1">
@@ -58,9 +67,9 @@
                 allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
             </iframe>
         </article>
-        <article>
+        <article class="directores">
             <p>Directed by VINCE MALC & EMILIA COLE<br> Edited and Filmed by NICOLAS TROY<br> Produced by NIKI HEART, Wix Films LTD</p>
-            <p><a href="#top">GO TOP</a></p>
+            <p class="goto"><a href="#top">Go Top</a></p>
         </article>
     </section>
     
@@ -71,9 +80,9 @@
                 allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
             </iframe>
         </article>
-        <article>
+        <article class="directores">
             <p>Directed by VINCE MALC & EMILIA COLE<br> Edited and Filmed by NICOLAS TROY<br> Produced by NIKI HEART, Wix Films LTD</p>
-            <p><a href="#top">GO TOP</a></p>
+            <p class="goto"><a href="#top">Go Top</a></p>
         </article>
     </section>
 </body>

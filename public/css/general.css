@@ -1,0 +1,16 @@
+
+:root{ /*de esta forma se declara variables y se le asigno valores*/
+    --color-gris: #B5ADA8;
+    --color-verde: #319381;
+}
+*{
+    text-decoration:none;
+    /*margin:0;
+    padding:0;*/
+    list-style:none;
+    color: #000000;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}

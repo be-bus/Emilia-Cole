@@ -1,0 +1,24 @@
+.nav-horizontal{
+margin-top:40px;
+}
+.nav-horizontal nav li{
+    display:inline;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-horizontal .list-icon li{
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.nav-horizontal ul {
+    text-align: right;
+    padding: 0 5px 0 0;
+}
+.nav-horizontal .nav-list{
+    height: 23px;
+    background-color: rgba(255, 255, 255,0.5);
+    padding : 15px 0;
+    
+}
+

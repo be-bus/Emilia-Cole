@@ -1,0 +1,11 @@
+.body-contac h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.body-contac h3{
+    font-weight: bold;
+}
+.contac-info .cargos{
+    color: var(--color-verde);/*asi se la invoca las variables :root*/
+    font-weight: bold;
+}

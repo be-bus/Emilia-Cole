@@ -1,0 +1,43 @@
+.background-body{
+    height: 767px;
+    background-image: url(/img/emilia-home.jpg);
+    background-size: 70%;
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+}
+.background-body h1{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding:10px;
+}
+.title-H{
+    background-color: rgb(255,255,255,0.5);
+    height: 75px;
+    margin: 200px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.nav-1 li{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+}
+.nav-1 a{
+    color:rgb(157,143,140);
+}
+.nav-2 li{/* porque el tamaño no me lo toma en a y si en li??*/
+    display:inline;
+    font-size:20px;
+    letter-spacing: 5px;
+}
+.subtitle-H h3{
+    font-size:30px;
+    padding: 0px 40px;
+    letter-spacing: 8px;
+}
+.subtitle-H{
+    padding-top:100px;
+}

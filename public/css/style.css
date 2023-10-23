@@ -1,0 +1,10 @@
+@import url('./home.css');
+@import url('./header.css');
+@import url('./general.css');
+@import url('./about.css');
+@import url('./contact.css');
+@import url('./music.css');
+
+/*Estilo de fuentes*/
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&family=Tilt+Neon&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Roboto:wght@100&family=Tilt+Neon&display=swap');
